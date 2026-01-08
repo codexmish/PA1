@@ -30,5 +30,75 @@ img{
     vertical-align: middle;
 }
 
+:root{
+    --primary-color: #30B868;
+    --orange: #F95555;
+    --black-text: #001931;
+    --sec-text: #627382;
+}
+
 
 /* ----------Common css part end----------- */
+
+
+
+/* --------Navbar part start----- */
+
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 346px;
+    padding: 15px 0;
+}
+
+
+.logo img{
+    width: 139px;
+    height: 60px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.menu ul li a{
+    color: var(--black-text);
+}
+
+.menu ul li a:hover{
+    color: var(--primary-color);
+}
+
+
+.nav-btn{
+    width: 164px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: var(--primary-color);
+    font-size: 16px;
+    color: white;
+}
+/* --------Navbar part End----- */
+
+
+/* --------Navbar part start----- */
+/* --------Navbar part End----- */
+
+
+/* --------Navbar part start----- */
+/* --------Navbar part End----- */
+
+
+/* --------Navbar part start----- */
+/* --------Navbar part End----- */
+
+
+/* --------Navbar part start----- */
+/* --------Navbar part End----- */
