@@ -176,8 +176,81 @@ img {
 
 /* --------Banner part End----- */
 
-/* --------Navbar part start----- */
-/* --------Navbar part End----- */
+/* --------Notes part start----- */
+
+.notes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 116px 0;
+}
+
+.head h2 {
+  font-weight: 600;
+  font-size: 48px;
+  text-transform: capitalize;
+  color: var(--black-text);
+  text-align: center;
+}
+
+.head p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--sec-text);
+  margin-top: 16px;
+  text-align: center;
+}
+
+.noteList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 44px;
+}
+
+.noteMain {
+  width: 322px;
+  height: 300px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.noteMain .logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--orange);
+}
+
+.noteMain .logo img {
+  width: 32px;
+  height: 32px;
+}
+
+.noteMain h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--black-text);
+}
+
+.noteMain p {
+  width: 274px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--sec-text);
+}
+/* --------Notes part End----- */
 
 /* --------Navbar part start----- */
 /* --------Navbar part End----- */
