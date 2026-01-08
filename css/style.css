@@ -306,5 +306,39 @@ img {
 
 /* --------Brain part End----- */
 
+/* --------Early part start----- */
+
+#early {
+  max-width: 1360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 12px;
+  background: #f7f6f2;
+  padding: 80px 0;
+  margin: auto;
+}
+
+.head3 h2 {
+  font-size: 40px;
+}
+
+.head3 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--sec-text);
+  text-align: center;
+}
+
+btn4 {
+  width: 194px;
+  margin-top: 16px;
+}
+
+/* --------Early part End----- */
+
 /* --------Navbar part start----- */
 /* --------Navbar part End----- */
