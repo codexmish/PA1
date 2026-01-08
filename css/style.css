@@ -1,104 +1,186 @@
 /* ----------Font link part start----------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* ----------Font link part End----------- */
 
-
 /* ----------Common css part start----------- */
 * {
-    padding: o;
-    margin: 0;
-    outline: none;
-    border: none;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+  padding: o;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
-ul,ol{
-    list-style: none;
+ul,
+ol {
+  list-style: none;
 }
 
-a{
-    display: inline-block;
-    text-decoration: none;
+a {
+  display: inline-block;
+  text-decoration: none;
 }
 
-img{
-    width: 100%;
-    max-width: 100%;
-    vertical-align: middle;
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
-:root{
-    --primary-color: #30B868;
-    --orange: #F95555;
-    --black-text: #001931;
-    --sec-text: #627382;
+:root {
+  --primary-color: #30b868;
+  --orange: #f95555;
+  --black-text: #001931;
+  --sec-text: #627382;
 }
-
 
 /* ----------Common css part end----------- */
 
-
-
 /* --------Navbar part start----- */
 
-#navbar{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 346px;
-    padding: 15px 0;
+#navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 346px;
+  padding: 15px 0;
 }
 
-
-.logo img{
-    width: 139px;
-    height: 60px;
+.logo img {
+  width: 139px;
+  height: 60px;
 }
 
-.menu ul{
-    display: flex;
-    align-items: center;
-    gap: 32px;
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }
 
-.menu ul li a{
-    color: var(--black-text);
+.menu ul li a {
+  color: var(--black-text);
 }
 
-.menu ul li a:hover{
-    color: var(--primary-color);
+.menu ul li a:hover {
+  color: var(--primary-color);
 }
 
-
-.nav-btn{
-    width: 164px;
-    height: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    background: var(--primary-color);
-    font-size: 16px;
-    color: white;
+.nav-btn {
+  width: 164px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: var(--primary-color);
+  font-size: 16px;
+  color: white;
 }
 /* --------Navbar part End----- */
 
+/* --------Banner part start----- */
+
+#banner {
+  width: 100%;
+  height: 674px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  background: url("../assets/hero-bg.png");
+}
+
+.top {
+  width: 229px;
+  height: 35px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-radius: 1000px;
+}
+
+.top p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.top .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  max-width: 770px;
+}
+
+.heading h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.heading h1 span {
+  color: var(--primary-color);
+}
+
+.ban-des {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+}
+
+.ban-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.btn1 {
+  width: 251px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--primary-color);
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+
+.btn1 img {
+  width: 20px;
+}
+
+.btn2 {
+  width: 198px;
+  background: transparent;
+  border: 1px solid white;
+}
+
+/* --------Banner part End----- */
 
 /* --------Navbar part start----- */
 /* --------Navbar part End----- */
 
-
 /* --------Navbar part start----- */
 /* --------Navbar part End----- */
-
-
-/* --------Navbar part start----- */
-/* --------Navbar part End----- */
-
 
 /* --------Navbar part start----- */
 /* --------Navbar part End----- */
